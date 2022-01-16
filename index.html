@@ -1,288 +1,291 @@
 <!DOCTYPE html>
-<html>
-<title>W3.CSS Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
-body, html {
-  height: 100%;
-  color: #777;
-  line-height: 1.8;
-}
+<html lang="en">
+  <head>
+    <!-- Metadata of the Webpage -->
+    <!-- Character-set Metadata -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Viewport Metadata -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Description Metadata-->
+    <meta name="description" content="Portfolio Website" />
+    <!-- Author Metadata -->
+    <meta name="author" content="Aditya Vikram Singh" />
+    <!-- Keyword Metadata -->
+    <meta
+      name="keywords"
+      content="Aditya Singh, Aditya Vikram Singh, Aditya Vikram Singh DPS,
+        Aditya Vikram Singh DPSRKP, Aditya Vikram Singh UMass, Aditya Vikram
+        Singh UMass Amherst, Aditya Vikram Singh New Delhi, Aditya Vikram
+        Singh Amherst, Aditya Vikram Singh ISSDC, Aditya Vikram Singh NASA,
+        Aditya Vikram Singh, Aditya Vikram Singh Website, Aditya V Singh"
+    />
+    <!-- Webpage Logo -->
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <!-- Webpage Title -->
+    <title>Aditya Vikram Singh</title>
 
-/* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+    <!-- Import CSS: Main Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
 
-/* First image (Logo. Full height) */
-.bgimg-1 {
-  background-image: url('/w3images/parallax1.jpg');
-  min-height: 100%;
-}
-
-/* Second image (Portfolio) */
-.bgimg-2 {
-  background-image: url("/w3images/parallax2.jpg");
-  min-height: 400px;
-}
-
-/* Third image (Contact) */
-.bgimg-3 {
-  background-image: url("/w3images/parallax3.jpg");
-  min-height: 400px;
-}
-
-.w3-wide {letter-spacing: 10px;}
-.w3-hover-opacity {cursor: pointer;}
-
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1600px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: scroll;
-    min-height: 400px;
-  }
-}
-</style>
-<body>
-
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-      <i class="fa fa-bars"></i>
-    </a>
-    <a href="#home" class="w3-bar-item w3-button">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-      <i class="fa fa-search"></i>
-    </a>
-  </div>
-
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
-  </div>
-</div>
-
-<!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-  <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MY <span class="w3-hide-small">WEBSITE</span> LOGO</span>
-  </div>
-</div>
-
-<!-- Container (About Section) -->
-<div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">ABOUT ME</h3>
-  <p class="w3-center"><em>I love photography</em></p>
-  <p>We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-    qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <div class="w3-row">
-    <div class="w3-col m6 w3-center w3-padding-large">
-      <p><b><i class="fa fa-user w3-margin-right"></i>My Name</b></p><br>
-      <img src="/w3images/avatar_hat.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
-    </div>
-
-    <!-- Hide this text on small devices -->
-    <div class="w3-col m6 w3-hide-small w3-padding-large">
-      <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-  </div>
-  <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
-  <p class="w3-wide"><i class="fa fa-camera"></i>Photography</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-photo"></i>Photoshop</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
-  </div>
-</div>
-
-<div class="w3-row w3-center w3-dark-grey w3-padding-16">
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">14+</span><br>
-    Partners
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">55+</span><br>
-    Projects Done
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">89+</span><br>
-    Happy Clients
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">150+</span><br>
-    Meetings
-  </div>
-</div>
-
-<!-- Second Parallax Image with Portfolio Text -->
-<div class="bgimg-2 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
-  </div>
-</div>
-
-<!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-64" id="portfolio">
-  <h3 class="w3-center">MY WORK</h3>
-  <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
-
-  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-  <div class="w3-row-padding w3-center">
-    <div class="w3-col m3">
-      <img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
-    </div>
-  </div>
-
-  <div class="w3-row-padding w3-center w3-section">
-    <div class="w3-col m3">
-      <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
-    </div>
-
-    <div class="w3-col m3">
-      <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
-    </div>
-    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
-  </div>
-</div>
-
-<!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-    <img id="img01" class="w3-image">
-    <p id="caption" class="w3-opacity w3-large"></p>
-  </div>
-</div>
-
-<!-- Third Parallax Image with Portfolio Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
-  </div>
-</div>
-
-<!-- Container (Contact Section) -->
-<div class="w3-content w3-container w3-padding-64" id="contact">
-  <h3 class="w3-center">WHERE I WORK</h3>
-  <p class="w3-center"><em>I'd love your feedback!</em></p>
-
-  <div class="w3-row w3-padding-32 w3-section">
-    <div class="w3-col m4 w3-container">
-      <img src="/w3images/map.jpg" class="w3-image w3-round" style="width:100%">
-    </div>
-    <div class="w3-col m8 w3-panel">
-      <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Chicago, US<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mail@mail.com<br>
-      </div>
-      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
-      <form action="/action_page.php" target="_blank">
-        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-          </div>
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-          </div>
+  <body>
+    <div id="particles-js">
+      <div class="header">
+        <h1>
+          <span class="site-title">ADITYA VIKRAM SINGH</span>
+          <span class="site-description">Programmer • Web Developer • Graphic Designer</span>
+        </h1>
+        <div class="header-icons">
+          <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/avs1508/">
+            <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a aria-label="My Github Profile" target="_blank" href="https://github.com/AVS1508">
+            <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+          </a>
+          <a aria-label="My Résumé" target="_blank" href="https://www.adityavsingh.com/resume.html">
+            <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
+          </a>
+          <a aria-label="Send Email" href="mailto:avsingh@umass.edu" target="_blank"
+            ><i class="icon fa fa-envelope"></i
+          ></a>
         </div>
-        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-        <button class="w3-button w3-black w3-right w3-section" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </form>
+        <div class="header-links">
+          <a class="link" href="#about" data-scroll>About Me</a>
+          <a class="link" href="#projects" data-scroll>Projects</a>
+        </div>
+      </div>
+      <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
     </div>
-  </div>
-</div>
 
-<!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <div class="w3-xlarge w3-section">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </div>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-</footer>
- 
-<script>
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
+    <!-- About Section -->
+    <section id="about">
+      <!-- User Introduction-->
+      <div class="user-details">
+        <h1>My Story</h1>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="./assets/img/webp/Professional-Picture-Me.webp"
+            alt="Professional Me"
+            width="20%"
+            style="border-radius: 50%"
+          />
+          <img
+            src="./assets/img/jpg/Professional-Picture-Me.jpg"
+            alt="Professional Me"
+            width="20%"
+            style="border-radius: 50%"
+          />
+        </picture>
+        <p>
+          I am a junior in the College of Information and Computer Sciences at the University of Massachusetts Amherst,
+          pursuing an undergraduate degree. I am majoring in Computer Science, with intent to double major in
+          Mathematics with Statistics and Data Science concentration. I'm involved as a Software Developer for BUILD
+          UMass, where I use my software engineering skills for pro-bono app/web development and tech consulting for the
+          Amherst community. I also serve as a Designer for the HackUMass Organizing Team, responsible for graphics
+          design and production for the annual hackathon. I am interested in exploring the fields of Software
+          Engineering, Data Science, and Machine Learning, and I am open to opportunities for the same.
+        </p>
+      </div>
 
-// Change style of navbar on scroll
-window.onscroll = function() {myFunction()};
-function myFunction() {
-    var navbar = document.getElementById("myNavbar");
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
-    } else {
-        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-    }
-}
+      <!-- User Specifics -->
+      <div class="user">
+        <!-- Technology Stack #1: Languages -->
+        <div class="tech">
+          <h2>Languages</h2>
+          <i class="devicon-python-plain colored"></i>
+          <i class="devicon-java-plain-wordmark colored"></i>
+          <i class="devicon-cplusplus-plain colored"></i>
+          <i class="devicon-javascript-plain colored"></i>
+          <p>My favorite languages for systems programming, software engineering, and data analysis.</p>
+        </div>
 
-// Used to toggle the menu on small screens when clicking on the menu button
-function toggleFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-</script>
+        <!-- Technology Stack #2: Front-End -->
+        <div class="tech">
+          <h2>Front-End</h2>
+          <i class="devicon-react-original colored"></i>
+          <i class="devicon-bootstrap-plain-wordmark colored"></i>
+          <i class="devicon-html5-plain-wordmark colored"></i>
+          <i class="devicon-css3-plain-wordmark colored"></i>
+          <p>My preferred technologies for front-end web development and component design.</p>
+        </div>
 
-</body>
+        <!-- Technology Stack #3: Back-End -->
+        <div class="tech">
+          <h2>Back-End</h2>
+          <i class="devicon-nodejs-plain colored"></i>
+          <i class="devicon-express-original-wordmark colored"></i>
+          <i class="devicon-mongodb-plain-wordmark colored"></i>
+          <i class="devicon-postgresql-plain-wordmark colored"></i>
+          <p>My preferred technologies for back-end web programming and database architecture.</p>
+        </div>
+
+        <!-- Technology Stack #4: Tools -->
+        <div class="tech">
+          <h2>Tools</h2>
+          <i class="devicon-git-plain-wordmark colored"></i>
+          <i class="devicon-visualstudio-plain colored"></i>
+          <i class="devicon-github-plain-wordmark colored"></i>
+          <i class="devicon-docker-plain-wordmark colored"></i>
+          <p>My favorite tools for version control, code editing, and container orchestration.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="user-details">
+        <h1>Featured Projects</h1>
+      </div>
+
+      <!-- User Project #1: Personal Résumé Website -->
+      <div class="user-projects">
+        <div class="images-right">
+          <picture>
+            <source type="image/webp" srcset="./assets/img/webp/Personal-Resume-Website.webp" alt="Personal Website" />
+            <img alt="Personal Website" src="./assets/img/jpg/Personal-Resume-Website.jpg" />
+          </picture>
+        </div>
+        <div class="contents" style="text-align: center">
+          <h3>Personal Website</h3>
+          <div>
+            <img
+              height="32"
+              width="32"
+              src="https://unpkg.com/simple-icons@3.4.0/icons/react.svg"
+              style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)"
+            />
+            &nbsp;
+            <img
+              height="32"
+              width="32"
+              src="https://unpkg.com/simple-icons@3.4.0/icons/bootstrap.svg"
+              style="filter: invert(24%) sepia(14%) saturate(2270%) hue-rotate(222deg) brightness(102%) contrast(90%)"
+            />
+            &nbsp;
+            <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg" />
+          </div>
+          <p style="text-align: justify">
+            I developed and designed a website using ReactJS and Bootstrap, hosted on Github Pages, to showcase my web
+            presence, story, work experience, education, projects, and achievements in an interactive and
+            visually-appealing format.
+          </p>
+          <a class="project-link" target="_blank" href="https://www.adityavsingh.com/">Check it out!</a>
+        </div>
+      </div>
+
+      <!-- User Project #2: Summer 2020 Project -->
+      <div class="user-projects">
+        <div class="images-left">
+          <picture>
+            <source type="image/webp" srcset="./assets/img/webp/Perpetual-Crusades.webp" alt="Perpetual Crusades" />
+            <img alt="Perpetual Crusades" src="./assets/img/jpg/Perpetual-Crusades.jpg" />
+          </picture>
+        </div>
+        <div class="contents-right" style="text-align: center">
+          <h3>Perpetual Crusades</h3>
+          <img
+            height="32"
+            width="32"
+            src="https://unpkg.com/simple-icons@3.4.0/icons/react.svg"
+            style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)"
+          />
+          &nbsp;
+          <img
+            height="32"
+            width="32"
+            src="https://unpkg.com/simple-icons@3.4.0/icons/css3.svg"
+            style="filter: invert(33%) sepia(29%) saturate(3844%) hue-rotate(184deg) brightness(90%) contrast(84%)"
+          />
+          &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg" />
+          <p style="text-align: justify">
+            I created a two-player online dice-based board game with a theme loosely set around Dungeons & Dragons. It
+            was developed as a submission for Penn Apps XXI, using ReactJS and CSS Grid Layouts for design and hosted on
+            GitHub Pages.
+          </p>
+          <a class="project-link" target="_blank" href="https://github.com/AVS1508/Summer-2020-Project"
+            >Check it out!</a
+          >
+        </div>
+      </div>
+
+      <!-- User Project #3: COVID-19 Tracker App -->
+      <div class="user-projects">
+        <div class="images-right">
+          <picture>
+            <source type="image/webp" srcset="./assets/img/webp/COVID19-Tracker-App.webp" alt="COVID-19 Tracker App" />
+            <img alt="COVID-19 Tracker App" src="./assets/img/jpg/COVID19-Tracker-App.jpg" />
+          </picture>
+        </div>
+        <div class="contents" style="text-align: center">
+          <h3>COVID-19 Tracker App</h3>
+          <div>
+            <img
+              height="32"
+              width="32"
+              src="https://unpkg.com/simple-icons@3.4.0/icons/javascript.svg"
+              style="filter: invert(96%) sepia(47%) saturate(4151%) hue-rotate(338deg) brightness(100%) contrast(95%)"
+            />
+          </div>
+          <p style="text-align: justify">
+            I created a web application for tracking the spread of COVID-19. Using Johns Hopkins University Center For
+            Systems Science and Engineering API, the website processes the COVID-19 data to create statistical
+            projections through graphs and charts.
+          </p>
+          <a class="project-link" target="_blank" href="https://www.adityavsingh.com/covid19-tracker-app">
+            Check it out!
+          </a>
+        </div>
+      </div>
+
+      <!-- Use Project #4: Valuto: Account Management System -->
+      <div class="user-projects">
+        <div class="images-left">
+          <picture>
+            <source
+              type="image/webp"
+              srcset="./assets/img/webp/Valuto-Account-Management.webp"
+              alt="Valuto: Account Management System"
+            />
+            <img alt="Valuto: Account Management System" src="./assets/img/jpg/Valuto-Account-Management.jpg" />
+          </picture>
+        </div>
+        <div class="contents-right" style="text-align: center">
+          <h3>Valuto: Account Management System</h3>
+          <div>
+            <img
+              height="32"
+              width="32"
+              src="https://unpkg.com/simple-icons@3.4.0/icons/cplusplus.svg"
+              style="filter: invert(22%) sepia(77%) saturate(1486%) hue-rotate(183deg) brightness(101%) contrast(103%)"
+            />
+          </div>
+          <p style="text-align: justify">
+            I developed a CLI system for accounting management and financial statement maintenance. The purpose of the
+            system is to maintain a record of the funds received, used, disseminated and donated by an organization.
+            Details of transactions and maintenance of a budget and tallying of current balance/inventory in cash/kind
+            is incorporated in this system.
+          </p>
+          <a class="project-link" target="_blank" href="https://github.com/AVS1508/Valuto-Account-Management-System">
+            Check it out!
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; Aditya Vikram Singh, 2020</p>
+    </footer>
+
+    <!-- Import JS: Particles Theme -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Import JS: Sweet Scroll -->
+    <script src="./assets/js/sweet-scroll.min.js"></script>
+    <!-- Import JS: Google Analytics -->
+    <script src="./assets/js/google-analytics.js"></script>
+    <!-- Import JS: Main Script -->
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>
