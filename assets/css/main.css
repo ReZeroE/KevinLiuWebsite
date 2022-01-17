@@ -4842,6 +4842,10 @@ a img {
     height: 100vh !important
 }
 
+#work{
+    background: #1bf7ff;
+}
+
 .header {
     z-index: 1;
     text-align: center;
