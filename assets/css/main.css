@@ -5011,40 +5011,6 @@ a img {
     margin: 5px auto
 }
 
-
-
-/* single container below video, and the components within */
-#below-vid {
-    position: absolute;
-    top: 100%;
-    font-size: 150%;
-    text-align: justify;
-}
-.bv-component {
-    width: 75%;
-    margin: 50px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* all elements below the video */
-#below-vid * {
-    margin-bottom:10px;
-}
-#below-vid h2 {
-    margin-bottom: 20px;
-    text-align: center;
-    font-family: "Century Gothic", sans-serif;
-}
-#below-vid .work-proj-summary {
-    margin: auto;
-    width: 90%;
-    border: 3px solid #73AD21;
-    padding: 10px;
-}
-
-
-
 #projects {
     display: flex;
     flex-direction: column;
@@ -5054,7 +5020,7 @@ a img {
     margin: 0 auto
 }
 
-@media only screen and (min-width:650px) {
+@media only screen and (min-width:550px) {
     #projects {
         width: 80%
     }
@@ -5158,4 +5124,36 @@ a img {
     text-decoration: none;
     margin: 0;
     color: #fff
+}
+
+
+
+/* single container below video, and the components within */
+#below-vid {
+    position: absolute;
+    top: 100%;
+    font-size: 150%;
+    text-align: justify;
+}
+.bv-component {
+    width: 75%;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* all elements below the video */
+#below-vid * {
+    margin-bottom:10px;
+}
+#below-vid h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Century Gothic", sans-serif;
+}
+#below-vid .work-proj-summary {
+    margin: auto;
+    width: 90%;
+    border: 3px solid #73AD21;
+    padding: 10px;
 }
