@@ -5008,7 +5008,7 @@ a img {
 
 .user-details {
     text-align: center;
-    margin: 5px auto
+    margin: 5px auto;
 }
 
 #projects {
@@ -5063,7 +5063,7 @@ a img {
     .contents-right,
     .images-right {
         float: right;
-        width: 48%
+        width: 80%
     }
 
     .images-right img {
@@ -5072,7 +5072,7 @@ a img {
 
     .images-left {
         float: left;
-        width: 48%
+        width: 80%
     }
 
     .images-left img {
