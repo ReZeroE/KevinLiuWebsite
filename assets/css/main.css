@@ -5061,7 +5061,8 @@ a img {
 }
 
 .user-projects {
-    margin: 20px auto
+    margin: 20px auto;
+    width: 75%;
 }
 
 .user-projects img {
