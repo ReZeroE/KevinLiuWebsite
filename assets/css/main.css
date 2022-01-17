@@ -5020,11 +5020,11 @@ a img {
     flex-direction: column;
     justify-content: space-between;
     width: 90%;
-    max-width: 960px;
+    max-width: 100%;
     margin: 0 auto
 }
 
-@media only screen and (min-width:550px) {
+@media only screen and (min-width:800px) {
     #projects {
         width: 80%
     }
@@ -5054,7 +5054,7 @@ a img {
     margin-right: 5px
 }
 
-@media only screen and (min-width:800px) {
+@media only screen and (min-width:550px) {
     .contents {
         margin-left: 0;
         width: 20%
