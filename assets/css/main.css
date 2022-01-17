@@ -5063,7 +5063,8 @@ a img {
     .contents-right,
     .images-right {
         float: right;
-        width: 80%
+        width: 80%;
+        border: 3px solid #73AD21;
     }
 
     .images-right img {
@@ -5072,7 +5073,8 @@ a img {
 
     .images-left {
         float: left;
-        width: 80%
+        width: 80%;
+        border: 3px solid #73AD21;
     }
 
     .images-left img {
