@@ -5020,7 +5020,7 @@ a img {
     margin: 0 auto
 }
 
-@media only screen and (min-width:550px) {
+@media only screen and (min-width:800px) {
     #projects {
         width: 80%
     }
