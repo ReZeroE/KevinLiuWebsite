@@ -5054,7 +5054,7 @@ a img {
     margin: 0 auto
 }
 
-@media only screen and (min-width:800px) {
+@media only screen and (min-width:650px) {
     #projects {
         width: 80%
     }
