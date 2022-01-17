@@ -5068,7 +5068,9 @@ a img {
     }
 
     .images-right img {
-        float: right
+        float: right;
+        width: 80%;
+        border: 3px solid #73AD21;
     }
 
     .images-left {
@@ -5078,7 +5080,9 @@ a img {
     }
 
     .images-left img {
-        float: left
+        float: left;
+        width: 80%;
+        border: 3px solid #73AD21;
     }
 }
 
