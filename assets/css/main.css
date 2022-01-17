@@ -5037,8 +5037,10 @@ a img {
     font-family: "Century Gothic", sans-serif;
 }
 #below-vid .work-proj-summary {
-    margin-left: 50px;
-    font-size: 80%;
+    margin: auto;
+    width: 90%;
+    border: 3px solid #73AD21;
+    padding: 10px;
 }
 
 
