@@ -4821,12 +4821,16 @@ a img {
 }
 
 #particles-js {
-    background: #1488CC;
+    background: black;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+    background: -webkit-linear-gradient(to right, gray, black);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2B32B2, #1488CC);
+    background: url("https://i.imgur.com/4sg4HsA.jpg");
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /*#00203fff, #adefd1ff linear-gradient(to right, #d7c49eff, #343148ff);*/
+
+
 
     display: flex;
     vertical-align: bottom;
@@ -4853,8 +4857,7 @@ a img {
 
 
 #work img{
-    display: block;
-    max-width: 30%;
+    width: 100%;
     height: auto;
 }
 
@@ -5103,13 +5106,13 @@ a img {
     .contents-right,
     .images-right {
         float: right;
-        width: 80%;
+        width: 50%;
         border: 3px solid #73AD21;
     }
 
     .images-right img {
         float: right;
-        width: 80%;
+        width: 50%;
         border: 3px solid #73AD21;
     }
 
@@ -5188,6 +5191,13 @@ a img {
     margin-right: auto;
 }
 
+.bv-component-right {
+    width: 75%;
+    margin: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* all elements below the video */
 #below-vid * {
     margin-bottom:10px;
@@ -5199,7 +5209,7 @@ a img {
 }
 #below-vid .work-proj-summary {
     margin: auto;
-    width: 90%;
+    width: 50%;
     border: 3px solid #73AD21;
     padding: 10px;
 }
@@ -5246,3 +5256,40 @@ svg text {
 
 
 
+.s1 {
+  border: 1px solid green;
+  display: flex;
+  font-family: sans-serif;
+}
+
+.paragraph {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  width: 70%;
+}
+
+.title-and-subtitle {
+    display: flex;
+}
+
+.title {
+  color: white;
+  line-height: 24px;
+}
+
+.subtitle{
+    color: white;
+    line-height: 20px;
+}
+
+.img9000{
+    width: 30%;
+    padding-top: 20px;
+    padding-right: 50px;
+    display:block
+
+}
